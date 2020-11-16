@@ -39,5 +39,7 @@ export class UserService {
         user.name = data.name;
         user.surname = data.surname;
         user.password = data.password;
+
+        result.push(user);
     }
 }
